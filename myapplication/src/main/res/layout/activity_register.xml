@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/tr_et_un"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:inputType="text"
+        android:padding="5dp"
+        android:longClickable="false"
+        android:hint="账号"/>
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#818181"
+        android:textSize="16sp"
+        android:text="请填写您的账号"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+    <EditText
+        android:id="@+id/tr_et_ps"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:inputType="textPassword"
+        android:longClickable="false"
+        android:padding="5dp"
+        android:hint="密码"/>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textColor="#818181"
+        android:textSize="16sp"
+        android:text="请填写您的密码"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/tr_btn_ok"
+        android:layout_height="60dp"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="完成"
+        android:background="#3F51B5"
+        android:textSize="18sp"
+        android:textColor="#FF000000"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Button"/>
+
+
+
+</LinearLayout>

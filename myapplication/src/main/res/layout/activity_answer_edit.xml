@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/et_answer_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:hint="请按序输入该题的答案"
+        android:digits="abcdefghijklmnopq"
+        android:maxLength="10"/>
+
+    <TextView
+        android:id="@+id/tv_answer_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical"
+        android:scrollbarStyle="outsideOverlay"
+        android:maxLines="20"/>
+    <Button
+        android:id="@+id/btn_lr_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"/>
+    <TextView
+        android:id="@+id/tv_lr_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffff0000"/>
+
+</LinearLayout>

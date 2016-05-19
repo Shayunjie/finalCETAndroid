@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/et_pull_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:hint="请填入你将要填入的标题"/>
+    <EditText
+        android:id="@+id/et_pull_context"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:lines="8"
+        android:hint="请填入你将要填入的题目"/>
+    <EditText
+        android:id="@+id/et_pull_options"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="4"
+        android:layout_marginTop="50dp"
+        android:hint="请输入你将要填入的选项"/>
+    <EditText
+        android:id="@+id/et_pull_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:layout_marginTop="50dp"
+        android:hint="请填入你填入的题目的答案"/>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_act_pull"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:fabSize="normal"
+        android:background="@drawable/ic_add"
+        android:layout_gravity="center_horizontal"
+        app:layout_anchorGravity="bottom|right|end" />
+
+
+</LinearLayout>

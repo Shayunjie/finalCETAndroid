@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.myapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <service android:name=".activity.activity.LongRead.MusicService"></service>
+        <activity android:name=".activity.activity.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            </activity>
+
+        <activity android:name=".activity.activity.ReadingActivity">
+        </activity>
+        <activity android:name=".activity.activity.NavigationActivity">
+        </activity>
+        <activity android:name=".activity.activity.RegisterActivity">
+        </activity>
+        <activity android:name=".activity.activity.LongRead.LRtestActivity">
+        </activity>
+
+        <!--<activity android:name=".activity.activity.shortRead.mSReadingActivity">-->
+        <!--</activity>-->
+        <!--<activity android:name=".activity.activity.shortRead.SRanswerActivity"-->
+                  <!--android:theme="@android:style/Theme.Dialog">-->
+        <!--</activity>-->
+    <activity android:name=".activity.activity.Writing.zwActivity">
+        </activity>
+        <activity android:name=".activity.activity.Writing.XiezuoActivity">
+        </activity>
+        <activity android:name=".activity.activity.ChartActivity">
+        </activity>
+        <activity android:name=".activity.activity.LongRead.NewLongRead">
+        </activity>
+        <!--<activity android:name=".activity.activity.selectword.SWtestAcitvity"></activity>-->
+        <activity android:name=".activity.activity.PullActivity"></activity>
+        <activity android:name=".activity.activity.selectword.NewSWActivity"></activity>
+        <activity android:name=".activity.activity.shortRead.NewSRActivity"></activity>
+        <activity android:name=".activity.activity.LongRead.ListenningActivity"></activity>
+    </application>
+
+</manifest>

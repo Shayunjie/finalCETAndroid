@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/tl_ll_intro"
+        android:layout_marginTop="140dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CET考试练习"
+            android:textColor="#000"
+            android:textSize="23sp"
+            android:gravity="center"/>
+
+        <!--用户名-->
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="用户名"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/tl_et_un"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="请输入用户名"
+                />
+
+        </LinearLayout>
+
+        <!--密码-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="80sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="登陆密码"
+                android:singleLine="true"
+                android:textSize="20sp"/>
+
+            <EditText
+                android:id="@+id/tl_et_ps"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:password="true"
+                android:singleLine="true"
+                android:imeOptions="actionNext"
+                android:hint="请输入密码"
+                />
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/tl_btn_login"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:background="#3F51B5"
+            android:textColor="#FFFFFF"
+            android:text="登陆"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:text="新用户?  点击注册"
+            android:textSize="20sp"
+            android:textColor="#1e88e5"
+            android:id="@+id/tl_et_register"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
